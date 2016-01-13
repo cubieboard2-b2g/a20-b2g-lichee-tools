@@ -1220,7 +1220,7 @@ bt_uart_id          = 2
 ;bt_rst              = port:PH18<1><default><default><default>
 
 [i2s_para]
-i2s_used            = 1
+i2s_used            = 0
 i2s_channel         = 2
 i2s_mclk            = port:PB5<2><1><default><default>
 i2s_bclk            = port:PB6<2><1><default><default>
@@ -1287,7 +1287,7 @@ pcm_dout3           =
 pcm_din             = port:PA17<6><1><default><default>
 
 [spdif_para]
-spdif_used          = 1
+spdif_used          = 0
 spdif_mclk          =
 spdif_dout          = port:PB13<4><1><default><default>
 spdif_din           =
